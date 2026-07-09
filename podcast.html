@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Podcast | AZ Nutris — Nutrição Integrada</title>
+<meta name="description" content="Ouça o podcast da AZ Nutris: episódios sobre nutrição clínica, bioimpedância, emagrecimento saudável e autocuidado. Disponível no Spotify, YouTube e Instagram.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Jost:wght@300;400;500;600&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+  type="text/css"
+  href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"/>
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/fill/style.css"/>
+<link rel="stylesheet" href="css/podcast.css">
+</head>
+
+<body>
+ 
+<header>
+  <div class="logo-row">
+    <a href="index.html"><img src="extracted_images/image_0.png" alt="AZ Nutris — Nutrição Integrada"></a>
+  </div>
+  <nav class="navbar">
+    <div class="wrap bar-inner" style="position:relative;">
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">&#9776;</button>
+      <ul id="navList">
+        <li><a href="index.html#home">Home</a></li>
+        <li><a href="index.html#bioimpedancia">Bioimpedância</a></li>
+        <li><a href="index.html#servicos">Serviços</a></li>
+        <li><a href="index.html#sobre">Sobre nós</a></li>
+        <li class="active"><a href="podcast.html">Podcast</a></li>
+        <li><a href="index.html#contato">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+ 
+<main>
+ 
+  <!-- PODCAST HERO -->
+  <section class="podcast-hero">
+    <div class="wrap ph-grid">
+      <div class="anim-left">
+        <div class="eyebrow">AZ Nutris Podcast</div>
+        <h1>Conversas sobre nutrição, <span class="italic-serif accent">ciência e autocuidado.</span></h1>
+        <p class="lead">A cada episódio, a Dra. Cibele Lopes e a Dra. Jéssica Kassab trazem para o papo os bastidores da nutrição clínica: bioimpedância, emagrecimento saudável, suplementação e o que realmente funciona — sem terrorismo nutricional.</p>
+        <div class="platform-row">
+          <a href="#" class="platform-btn spotify" target="_blank" rel="noopener">
+            <i class="ph-fill ph-spotify-logo" style="font-size:18px; color:#1DB954;"></i>
+            Spotify
+          </a>
+          <a href="#" class="platform-btn youtube" target="_blank" rel="noopener">
+            <i class="ph-fill ph-youtube-logo" style="font-size:18px; color:#FF0000;"></i>
+            YouTube
+          </a>
+          <a href="#" class="platform-btn instagram" target="_blank" rel="noopener">
+            <i class="ph-fill ph-instagram-logo" style="font-size:18px; color:#dc2743;"></i>
+            Instagram
+          </a>
+        </div>
+      </div>
+      <div class="cover-art anim-right">
+        <div class="cover-art-inner">
+          <img src="extracted_images/logo_podcast.png" alt="Capa do podcast AZ Nutris">
+          <!--<div class="cover-badge">
+            <img src="extracted_images/image_0.png" alt="">
+            <span>Podcast</span>
+          </div>-->
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- FEATURED EPISODE -->
+  <section class="featured">
+    <div class="wrap">
+      <div class="eyebrow featured-label anim-up">Episódio mais recente</div>
+      <div class="featured-grid">
+        <div class="video-thumb anim-left">
+          <img src="extracted_images/ep06_autocuidado.png" alt="Resumo em vídeo: Autocuidado como estilo de vida">
+          <div class="play-btn" aria-hidden="true"></div>
+          <div class="duration-badge">
+            <i class="ph ph-clock" style="font-size:11px; color:#fff;"></i>
+            42 min
+          </div>
+        </div>
+        <div class="anim-right">
+          <span class="ep-tag">Bem-estar · Episódio 06</span>
+          <h2>Autocuidado como estilo de vida</h2>
+          <p class="desc">Por que autocuidado vai muito além da estética. Neste episódio, a Dra. Cibele e a Dra. Jéssica conversam sobre como transformar pequenos hábitos diários em uma rotina de bem-estar sustentável — sem restrição e sem culpa.</p>
+          <div class="ep-links">
+            <a href="#" class="icon-link spotify" target="_blank" rel="noopener" aria-label="Ouvir no Spotify">
+              <i class="ph-fill ph-spotify-logo" style="font-size:17px; color:#1DB954;"></i>
+            </a>
+            <a href="#" class="icon-link youtube" target="_blank" rel="noopener" aria-label="Assistir no YouTube">
+              <i class="ph-fill ph-youtube-logo" style="font-size:17px; color:#FF0000;"></i>
+            </a>
+            <a href="#" class="icon-link instagram" target="_blank" rel="noopener" aria-label="Ver no Instagram">
+              <i class="ph-fill ph-instagram-logo" style="font-size:17px; color:#dc2743;"></i>
+            </a>
+            <a href="#" class="watch-full">Ver episódio completo →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ALL EPISODES -->
+  <section class="episodes">
+    <div class="wrap">
+      <div class="episodes-head anim-up">
+        <div class="eyebrow center">Acervo</div>
+        <h2>Todos os episódios</h2>
+      </div>
+
+      <div class="ep-grid">
+
+        <div class="ep-card anim-up" style="animation-delay:.05s">
+          <div class="ep-card-img">
+            <img src="extracted_images/ep06_autocuidado.png" alt="Capa: Autocuidado como estilo de vida">
+            <div class="ep-play"></div>
+          </div>
+          <div class="ep-card-body">
+            <span class="ep-tag">Bem-estar · EP 06</span>
+            <h3>Autocuidado como estilo de vida</h3>
+            <p>Como transformar pequenos hábitos diários em uma rotina de bem-estar sustentável, sem restrição e sem culpa.</p>
+            <div class="ep-card-foot">
+              <div class="ep-mini-links">
+                <a href="#" class="icon-link mini spotify" aria-label="Spotify">
+                  <i class="ph-fill ph-spotify-logo" style="font-size:15px; color:#1DB954;"></i>
+                </a>
+                <a href="#" class="icon-link mini youtube" aria-label="YouTube">
+                  <i class="ph-fill ph-youtube-logo" style="font-size:15px; color:#FF0000;"></i>
+                </a>
+                <a href="#" class="icon-link mini instagram" aria-label="Instagram">
+                  <i class="ph-fill ph-instagram-logo" style="font-size:15px; color:#dc2743;"></i>
+                </a>
+              </div>
+              <a href="#" class="watch-full" style="font-size:11px;">Completo →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="ep-card anim-up" style="animation-delay:.15s">
+          <div class="ep-card-img">
+            <img src="extracted_images/ep05_suplementacao.png" alt="Capa: Suplementação: quando é necessária de verdade">
+            <div class="ep-play"></div>
+          </div>
+          <div class="ep-card-body">
+            <span class="ep-tag">Ciência · EP 05</span>
+            <h3>Suplementação: quando é necessária de verdade</h3>
+            <p>Mitos e verdades sobre suplementos: quando fazem sentido e os riscos de se automedicar sem orientação profissional.</p>
+            <div class="ep-card-foot">
+              <div class="ep-mini-links">
+                <a href="#" class="icon-link mini spotify" aria-label="Spotify">
+                  <i class="ph-fill ph-spotify-logo" style="font-size:15px; color:#1DB954;"></i>
+                </a>
+                <a href="#" class="icon-link mini youtube" aria-label="YouTube">
+                  <i class="ph-fill ph-youtube-logo" style="font-size:15px; color:#FF0000;"></i>
+                </a>
+                <a href="#" class="icon-link mini instagram" aria-label="Instagram">
+                  <i class="ph-fill ph-instagram-logo" style="font-size:15px; color:#dc2743;"></i>
+                </a>
+              </div>
+              <a href="#" class="watch-full" style="font-size:11px;">Completo →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="ep-card anim-up" style="animation-delay:.25s">
+          <div class="ep-card-img">
+            <img src="extracted_images/ep04_bioimpedancia.png" alt="Capa: Bioimpedância: o que os números realmente significam">
+            <div class="ep-play"></div>
+          </div>
+          <div class="ep-card-body">
+            <span class="ep-tag">Tecnologia · EP 04</span>
+            <h3>Bioimpedância: o que os números realmente significam</h3>
+            <p>Entenda os dados do exame InBody 270S e como interpretar massa magra, gordura visceral e água corporal.</p>
+            <div class="ep-card-foot">
+              <div class="ep-mini-links">
+                <a href="#" class="icon-link mini spotify" aria-label="Spotify">
+                  <i class="ph-fill ph-spotify-logo" style="font-size:15px; color:#1DB954;"></i>
+                </a>
+                <a href="#" class="icon-link mini youtube" aria-label="YouTube">
+                  <i class="ph-fill ph-youtube-logo" style="font-size:15px; color:#FF0000;"></i>
+                </a>
+                <a href="#" class="icon-link mini instagram" aria-label="Instagram">
+                  <i class="ph-fill ph-instagram-logo" style="font-size:15px; color:#dc2743;"></i>
+                </a>
+              </div>
+              <a href="#" class="watch-full" style="font-size:11px;">Completo →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="ep-card anim-up" style="animation-delay:.35s">
+          <div class="ep-card-img">
+            <img src="extracted_images/ep03_emagrecimento.png" alt="Capa: Emagrecimento saudável x dietas da moda">
+            <div class="ep-play"></div>
+          </div>
+          <div class="ep-card-body">
+            <span class="ep-tag">Emagrecimento · EP 03</span>
+            <h3>Emagrecimento saudável x dietas da moda</h3>
+            <p>Por que dietas restritivas raramente funcionam a longo prazo, e como construir um processo sustentável.</p>
+            <div class="ep-card-foot">
+              <div class="ep-mini-links">
+                <a href="#" class="icon-link mini spotify" aria-label="Spotify">
+                  <i class="ph-fill ph-spotify-logo" style="font-size:15px; color:#1DB954;"></i>
+                </a>
+                <a href="#" class="icon-link mini youtube" aria-label="YouTube">
+                  <i class="ph-fill ph-youtube-logo" style="font-size:15px; color:#FF0000;"></i>
+                </a>
+                <a href="#" class="icon-link mini instagram" aria-label="Instagram">
+                  <i class="ph-fill ph-instagram-logo" style="font-size:15px; color:#dc2743;"></i>
+                </a>
+              </div>
+              <a href="#" class="watch-full" style="font-size:11px;">Completo →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="ep-card anim-up" style="animation-delay:.45s">
+          <div class="ep-card-img">
+            <img src="extracted_images/ep02_rotina.png" alt="Capa: Nutrição na prática: rotina, produtividade e alimentação">
+            <div class="ep-play"></div>
+          </div>
+          <div class="ep-card-body">
+            <span class="ep-tag">Rotina · EP 02</span>
+            <h3>Nutrição na prática: rotina, produtividade e alimentação</h3>
+            <p>Dicas práticas para quem tem uma rotina corrida se alimentar bem, sem abrir mão do prazer de comer.</p>
+            <div class="ep-card-foot">
+              <div class="ep-mini-links">
+                <a href="#" class="icon-link mini spotify" aria-label="Spotify">
+                  <i class="ph-fill ph-spotify-logo" style="font-size:15px; color:#1DB954;"></i>
+                </a>
+                <a href="#" class="icon-link mini youtube" aria-label="YouTube">
+                  <i class="ph-fill ph-youtube-logo" style="font-size:15px; color:#FF0000;"></i>
+                </a>
+                <a href="#" class="icon-link mini instagram" aria-label="Instagram">
+                  <i class="ph-fill ph-instagram-logo" style="font-size:15px; color:#dc2743;"></i>
+                </a>
+              </div>
+              <a href="#" class="watch-full" style="font-size:11px;">Completo →</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="ep-card anim-up" style="animation-delay:.55s">
+          <div class="ep-card-img">
+            <img src="extracted_images/ep01_terrorismo.png" alt="Capa: Terrorismo nutricional: por que ele não funciona">
+            <div class="ep-play"></div>
+          </div>
+          <div class="ep-card-body">
+            <span class="ep-tag">Nutrição Clínica · EP 01</span>
+            <h3>Terrorismo nutricional: por que ele não funciona</h3>
+            <p>O episódio de estreia: um papo sincero sobre culpa alimentar e o discurso do "tudo ou nada".</p>
+            <div class="ep-card-foot">
+              <div class="ep-mini-links">
+                <a href="#" class="icon-link mini spotify" aria-label="Spotify">
+                  <i class="ph-fill ph-spotify-logo" style="font-size:15px; color:#1DB954;"></i>
+                </a>
+                <a href="#" class="icon-link mini youtube" aria-label="YouTube">
+                  <i class="ph-fill ph-youtube-logo" style="font-size:15px; color:#FF0000;"></i>
+                </a>
+                <a href="#" class="icon-link mini instagram" aria-label="Instagram">
+                  <i class="ph-fill ph-instagram-logo" style="font-size:15px; color:#dc2743;"></i>
+                </a>
+              </div>
+              <a href="#" class="watch-full" style="font-size:11px;">Completo →</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+ 
+</main>
+ 
+<footer id="contato">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <img class="foot-logo" src="extracted_images/image_0.png" alt="AZ Nutris">
+        <p>Nutrição integrada com ciência, tecnologia e acolhimento — para transformar sua relação com a saúde e o autocuidado.</p>
+      </div>
+      <div>
+        <h5>Navegação</h5>
+        <ul>
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#bioimpedancia">Bioimpedância</a></li>
+          <li><a href="index.html#servicos">Serviços</a></li>
+          <li><a href="index.html#sobre">Sobre nós</a></li>
+          <li><a href="podcast.html">Podcast</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Contato</h5>
+        <ul>
+          <li>WhatsApp: (71) 9 9999-9999</li>
+          <li>contato@aznutris.com.br</li>
+          <li>Salvador, Bahia — BR</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">© 2026 AZ Nutris — Nutrição Integrada. Todos os direitos reservados.</div>
+  </div>
+</footer>
+ 
+<a class="wa-float" href="https://wa.me/5571999999999" target="_blank" rel="noopener" aria-label="Fale conosco pelo WhatsApp">
+  <i class="ph-fill ph-whatsapp-logo" style="font-size:28px; color:#fff;"></i>
+</a>
+ 
+<script>
+  const navToggle = document.getElementById('navToggle');
+  const navList = document.getElementById('navList');
+  navToggle.addEventListener('click', () => navList.classList.toggle('open'));
+  navList.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navList.classList.remove('open')));
+
+  /* ---- Scroll-triggered entrance animations ---- */
+  const animEls = document.querySelectorAll('.anim-up, .anim-left, .anim-right');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  animEls.forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
