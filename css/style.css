@@ -428,9 +428,9 @@
   }
   .clinica-prato-wrap {
     position: absolute;
-    right: -100px;
-    bottom: 0;
-    width: 680px;
+    right: -60px;
+    bottom: -20px;
+    width: 480px;
     margin: 0;
     z-index: 1;
     pointer-events: none;
@@ -441,8 +441,7 @@
     display: block;
     object-fit: contain;
     object-position: bottom right;
-    opacity: 0.78;
-    filter: blur(5px);
+    opacity: 0.35;
   }
 
   @media (max-width: 900px) {
@@ -462,9 +461,10 @@
       margin-bottom: 24px;
     }
     .clinica-prato-wrap {
-      width: 480px;
-      right: -40px;
-      opacity: 0.5;
+      width: 340px;
+      right: -30px;
+      bottom: -10px;
+      opacity: 0.25;
     }
   }
 
