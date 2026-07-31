@@ -428,9 +428,9 @@
   }
   .clinica-prato-wrap {
     position: absolute;
-    right: -60px;
-    bottom: -20px;
-    width: 480px;
+    right: -40px;
+    bottom: -15px;
+    width: 520px;
     margin: 0;
     z-index: 1;
     pointer-events: none;
